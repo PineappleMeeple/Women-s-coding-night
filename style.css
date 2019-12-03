@@ -1,0 +1,70 @@
+h1, h2 {font-family: Lobster;}
+h1 {font-size: 2.5em; color: white;}
+h2 {font-size: 2em; color: #44b391;}
+a {text-decoration: none}
+a:hover {color: #cc0066}
+
+
+.soustitre {
+	color: white;
+	font-family: Fredoka One;
+}
+
+.button {
+	background-color: #44b391;
+	border-radius: 5px;
+	padding: 10px;
+	font-family: Lobster;
+}
+
+.button.contacts {
+width: 200px;
+text-align: center;
+	}
+
+.button a:visited {
+		color: white;
+		text-decoration: none;
+	}
+
+.images-qualites {
+	height: 15em;
+}
+
+.atouts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.box-atouts {
+	margin: 16px;
+	padding: 16px 0px;
+	text-align: center;
+}
+
+#entete {
+	display: flex;
+	background-color: #44b391;
+	align-items: center; 
+}
+
+#autoportrait {
+	margin: 2em 0 0 3em;
+}
+
+#titre-entete {
+	margin-left: 5em;
+}
+
+@media(max-width: 992px){
+  .atouts{
+  width: 750px;
+  }
+}
+@media(max-width: 768px){
+  .atouts{
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
+}
